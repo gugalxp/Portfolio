@@ -183,12 +183,9 @@ header{
     letter-spacing: .1rem;
     padding: 3rem 3rem;
     transition: .5s all;   
-    animation: moveBanner 1s forwards;
-    background: #000000;
+    animation: moveBanner 1s fo5rwards;
+    background: #fcfcfc8a;
 
-}
-.banner:hover {
-    transform: translateY(-10px) ;
 }
 
 .banner img{
@@ -213,7 +210,7 @@ transform: translateY(-15px) ;
 .banner h1{
     font-family: var(--font-primary);
     font-weight: bolder;
-    color: rgb(51, 255, 0);
+    color: rgb(0, 0, 0);
     left: -2;
     font-size: 18px;
     border-bottom: 1px solid rgb(2, 83, 29);
@@ -226,16 +223,18 @@ transform: translateY(-15px) ;
     font-weight: bolder;
     border-bottom: 1px solid rgb(2, 83, 29);
     text-align: center;
-    color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
 
 }
+
+
 
 .banner h3{
     font-family: var(--font-primary);
     font-weight: bolder;
     font-size: 15px;
     border-bottom: 1px solid rgb(2, 83, 29);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
 
 }
@@ -252,7 +251,7 @@ transform: translateY(-15px) ;
     font-weight: bolder;
     font-size: 15px;
     border-bottom: 1px solid rgb(2, 83, 29);
-    color: #eee;
+    color: rgb(0, 0, 0);
     text-align: center;
 
 }
