@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+
+* {
+    margin:0px;
+    padding:0px;
+    border: 0px;
+    list-style: none;
+    text-decoration: none;    
+}
+
+:root{
+
+--font-primary: "Baloo Da 2", serif;
+--font-secundary: "Josefin Slab",serif;
+--font-action: "Mulish",serif;
+
+}
+
+html{
+scroll-behavior: smooth;
+background: #070707;
+
+}
+
+body {
+    padding:0px;
+    margin:0px;
+}
+.sessao-contato{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: #000000;
+}
+    
+    .contato-wrapper{
+    width: 45%;
+    height: 35rem;
+    display: flex;
+    
+    }
+    
+    
+    .contato{
+    width: 50%;
+    background: rgba(24, 24, 24, 0.933);
+    padding: 1rem 3rem 1rem 3rem;
+    height: 90% ;
+    margin-left: 10rem;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+
+    }
+    
+    .sessao-contato h1 {
+        font-family: var(--font-action);
+        color:  #00fd22;
+        font-size: 3rem;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 2rem    ;
+    }
+    
+    .sessao-contato form{
+        width: 100%;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+        
+        
+    .input-group{
+        position: relative;
+        margin-bottom: -1rem;
+    
+    }
+    
+    .input-group textarea{
+        max-width: 20rem;
+        max-height: 5rem;
+    }
+    
+    .field{
+        background: rgba(0, 0, 0, 0.933);
+        color: rgb(255, 255, 255);
+        width: 16rem;
+        font-size: 1rem;
+        font-family:serif;
+        margin: 2rem 0;
+        outline: none;
+        border: 1px groove  #09b91b;
+        margin-left: .5rem;
+        padding: .4rem .4rem;
+    
+    }
+    
+    .field:hover{
+        border: 1.9px solid #017528;
+        }
+    
+    .field-label{
+        position: absolute;
+        left: 1rem;
+        font-family:var(--font-action);
+        text-transform: uppercase;
+        font-size: 1rem;
+        transition: all .3s ease-in-out;
+        color: white;
+        margin-top: .5rem;
+    }      
+    
+    
+    .btn-submit {
+        text-transform: uppercase;
+        width: 10rem;
+        height: 2.5rem;
+        background-color: #0ab120; 
+        color: #fff;
+        font-weight: 600;
+        font-size: .9rem;
+        cursor: pointer;
+        font-family: var(--font-action);
+        border-radius: .4rem;
+        margin-bottom: 5rem;
+        margin-left: .4rem;
+        margin-top: 1rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 2rem 7rem;
+        transition: all .3s;
+    
+    }
+    .btn-submit:hover {
+        
+     background-color: #044404; 
+
+    }
+    footer-content{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    footer{
+        width: 100%;
+        height: 7rem;
+        background-color: #17181b;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-content p{
+        font-family: var(--font-secundary);
+        color: #a7a7a7;
+        font-size: 1.2rem;
+    }
+    
+    .social-list a{
+        margin: 0 2rem;
+        color: #a7a7a7;
+        font-size: 1.5rem;
+    }
+    
+    .social-list a:hover{
+        color: #118320;
+    
+    }
+    
+    
+    .social-list ul{
+        display: flex;
+    
+    }
+
+    .sessao-header{
+    margin-top:-30rem;
+    margin-left: -20rem;
+    margin-right: 7rem;
+    background-color: #118320;
+    border-radius: 5%;
+    border-color: white;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    }
+
+    .sessao-header input{
+        background-color: #118320;
+        border-radius: 5%;
+        border-color: white;
+        color: white;
+        font-family: var(--font-primary);
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    
+
+    }
+    .sessao-header input:hover{
+
+        background-color: #094e12;
+ 
+        }

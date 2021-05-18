@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+
+* {
+    margin:0px;
+    padding:0px;
+    border: 0px;
+    list-style: none;
+    text-decoration: none;    
+}
+
+:root{
+
+--font-primary: "Baloo Da 2", serif;
+--font-secundary: "Josefin Slab",serif;
+--font-action: "Mulish",serif;
+
+}
+
+html{
+scroll-behavior: smooth;
+background: #070707;
+
+}
+
+body {
+    padding:0px;
+    margin:0px;
+}
+.sessao-projetos{
+    height: 100vh;
+    background: #161616;
+
+}
+
+.projetos {
+display: flex;
+justify-content: space-evenly;
+top: 2rem;
+
+}
+
+.card{
+width: 18rem;
+height: 25rem;
+margin-bottom: 2rem;
+position: relative;
+
+}
+
+.card-img-wrapper{
+width: 100%;
+height: 100%;
+background: #262626;
+border-radius: .5rem;
+}
+
+.card:hover .card-img-wrapper img{
+
+    opacity: .3;
+}
+
+.card-img-wrapper img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+border-radius: .5rem;
+opacity: .8;
+transition: opacity .3s ;
+}
+
+.card-info{
+position: absolute;
+top: -2rem;
+padding: 2 rem;
+text-overflow: 0 0.1rem 0.3rem rgba(0, 0, 0, -4);
+visibility: hidden;
+opacity: 0;
+transition: all 2s;
+}
+
+.card:hover .card-info{
+    opacity: 1;
+    visibility: visible;
+    top:0.5rem;
+    }
+
+.card-info h2{
+font-family: var(--font-primary);
+font-size: 2rem;
+font-weight: 500;
+color: #eee;
+padding-top: 4rem;
+text-overflow: 0 0.1rem 0.3rem rgba(0, 0, 0, -4);
+text-align: center;
+
+}
+
+.card-info h3{
+font-family: var(--font-action);
+font-weight: bolder;
+color: #00fd22;
+padding: 3rem ,6rem;
+text-overflow: rgba(53, 51, 51, 0.315);
+text-align: center;
+padding:1rem 1rem;
+
+
+}
+
+.card-info p{
+    font-family: var(--font-secundary);
+    font-weight: 600;
+    color: #eee;
+    width: 100%;    
+    padding-left:.1rem;
+    text-overflow: 0 0.1rem 0.3rem rgba(0, 0, 0, -4);
+    text-align: center;
+}
+
+.card-info button{
+width: 8rem;
+height: 2.5rem;
+background-color: black ;
+color: #fff;
+font-weight: 600;
+font-size: .9rem;
+cursor: pointer;
+font-family: var(--font-action);
+border-radius: .4rem;
+margin-top: 2rem;
+margin-left: 5rem;
+
+}
+
+.card-info button:hover{
+   background:  #00fd22;
+   color: #000000;
+}
+
+footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content p{
+    font-family: var(--font-secundary);
+    color: #a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color: #a7a7a7;
+    font-size: 1.5rem;
+}
+
+.social-list a:hover{
+    color: #118320;
+
+}
+
+
+.social-list ul{
+    display: flex;
+
+}
+
+.sessao-header h1{
+    font-family: var(--font-primary);
+    font-size: 4rem;
+    color: #00fd22;
+    border-bottom: solid 3px #30933d;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.sessao-header input{
+    padding: 1rem 2rem;
+    margin-top:-10rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    background-color: #118320;
+    border-radius: 5%;
+    border-color: white;
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+
+    }
+
+    .sessao-header input:hover{
+
+        background-color: #094e12;
+ 
+        }
