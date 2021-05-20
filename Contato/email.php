@@ -23,7 +23,7 @@ $mail->CharSet = 'UTF-8';
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = 'curttorock@gmail.com';
-$mail->Password = 'gugalxp500';
+$mail->Password = '********';
 $mail->Port = 587;
 
 $mail->setFrom('curttorock@gmail.com' , 'Portifólio');
